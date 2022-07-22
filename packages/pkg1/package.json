@@ -1,0 +1,19 @@
+{
+  "name": "@keeljs/pkg1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo \"pkg1 lint\"",
+    "build": "echo \"pkg1 build\"",
+    "test": "echo \"pkg1 test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0"
+  }
+}

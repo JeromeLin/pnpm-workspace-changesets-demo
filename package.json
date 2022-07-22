@@ -1,0 +1,16 @@
+{
+  "name": "pnpm-workspace-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "prepublish": "pnpm build",
+    "build": "pnpm -r --filter=@keeljs/* run build",
+    "test": "pnpm -r --filter=@keeljs/* run test"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.23.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "site",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo \"pkg2 lint\"",
+    "build": "echo \"pkg2 build\"",
+    "test": "echo \"pkg2 test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keeljs/pkg1": "workspace:*",
+    "@keeljs/pkg2": "workspace:*"
+  }
+}
