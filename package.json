@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "version": "changeset version",
-    "release": "changeset publish",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm changeset && pnpm version-packages && changeset publish",
     "prepublish": "pnpm build",
     "build": "pnpm -r --filter=@keeljs/* run build",
     "test": "pnpm -r --filter=@keeljs/* run test"
