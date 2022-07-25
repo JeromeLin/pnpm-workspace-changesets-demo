@@ -6,7 +6,7 @@
     "preinstall": "npx only-allow pnpm",
     "changeset": "changeset",
     "pre": "changeset pre enter next && changeset version && changeset publish",
-    "release": "changeset version && pnpm install",
+    "release": "changeset && changeset version && pnpm install",
     "publish": "pnpm publish -r",
     "prepublish": "pnpm build",
     "deploy": "pnpm -r --filter=site run build",
