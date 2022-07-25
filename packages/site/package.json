@@ -1,11 +1,12 @@
 {
   "name": "site",
+  "version": "0.0.0",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "lint": "echo \"pkg2 lint\"",
-    "build": "echo \"pkg2 build\"",
-    "test": "echo \"pkg2 test\""
+    "lint": "echo \"site lint\"",
+    "build": "echo \"site build\"",
+    "test": "echo \"site test\""
   },
   "author": "",
   "license": "ISC",
