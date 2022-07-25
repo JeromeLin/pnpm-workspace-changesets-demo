@@ -5,8 +5,9 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "pnpm changeset && pnpm version-packages && changeset publish",
+    "pre": "changeset pre enter next && changeset version && changeset publish",
+    "release": "changeset version && pnpm install",
+    "publish": "pnpm publish -r",
     "prepublish": "pnpm build",
     "deploy": "pnpm -r --filter=site run build",
     "build": "pnpm -r --filter=@keeljs/* run build",
