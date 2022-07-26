@@ -2,11 +2,12 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@keeljs/pkg1": "1.0.3",
-    "@keeljs/pkg2": "1.0.7",
+    "@keeljs/pkg1": "1.0.4-beta.0",
+    "@keeljs/pkg2": "1.0.8-beta.0",
     "site": "0.0.0"
   },
   "changesets": [
-    "forty-flies-invite"
+    "forty-flies-invite",
+    "pink-cheetahs-pump"
   ]
 }
