@@ -9,7 +9,8 @@
     "release": "bash scripts/release.sh",
     "deploy": "pnpm -r --filter=site run build",
     "build": "pnpm -r --filter=@keeljs/* run build",
-    "test": "pnpm -r --filter=@keeljs/* run test"
+    "test": "pnpm -r --filter=@keeljs/* run test",
+    "lint": "pnpm -r --filter=@keeljs/* run lint"
   },
   "devDependencies": {
     "@changesets/cli": "^2.23.2"
