@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@keeljs/pkg1": "1.0.5",
+    "@keeljs/pkg2": "1.0.9",
+    "site": "0.0.0"
+  },
+  "changesets": [
+    "happy-pianos-sin"
+  ]
+}
