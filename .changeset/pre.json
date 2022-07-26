@@ -2,15 +2,11 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@keeljs/pkg1": "1.0.1-beta.3",
-    "@keeljs/pkg2": "1.0.5-beta.3",
+    "@keeljs/pkg1": "1.0.1-beta.4",
+    "@keeljs/pkg2": "1.0.5-beta.4",
     "site": "0.0.0"
   },
   "changesets": [
-    "fifty-owls-pretend",
-    "new-bears-watch",
-    "six-doors-sin",
-    "swift-trainers-serve",
-    "tame-jars-kick"
+    "two-humans-design"
   ]
 }
