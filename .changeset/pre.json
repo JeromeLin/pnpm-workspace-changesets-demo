@@ -2,11 +2,12 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@keeljs/pkg1": "1.0.6-beta.1",
-    "@keeljs/pkg2": "1.0.10-beta.1",
+    "@keeljs/pkg1": "1.0.6-beta.2",
+    "@keeljs/pkg2": "1.0.10-beta.2",
     "site": "0.0.0"
   },
   "changesets": [
+    "blue-avocados-heal",
     "happy-pianos-sin",
     "twenty-cameras-leave",
     "yellow-mayflies-sing"
