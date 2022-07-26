@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@keeljs/pkg1": "1.0.0",
+    "@keeljs/pkg2": "1.0.4",
+    "site": "0.0.0"
+  },
+  "changesets": [
+    "new-bears-watch"
+  ]
+}
