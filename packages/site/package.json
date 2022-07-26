@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@keeljs/pkg1": "workspace:^1.0.1-beta.5",
-    "@keeljs/pkg2": "workspace:1.0.5-beta.5"
+    "@keeljs/pkg1": "workspace:^1.0.1",
+    "@keeljs/pkg2": "workspace:1.0.5"
   }
 }
