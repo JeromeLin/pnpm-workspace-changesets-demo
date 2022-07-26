@@ -7,4 +7,4 @@ pnpm install
 git add .
 git commit -m "release: new beta packages"
 changeset publish
-git push --follow-tags
+git push origin main --follow-tags
