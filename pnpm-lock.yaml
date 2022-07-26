@@ -25,8 +25,8 @@ importers:
 
   packages/site:
     specifiers:
-      '@keeljs/pkg1': workspace:^1.0.4
-      '@keeljs/pkg2': workspace:1.0.8
+      '@keeljs/pkg1': workspace:^1.0.5
+      '@keeljs/pkg2': workspace:1.0.9
     dependencies:
       '@keeljs/pkg1': link:../pkg1
       '@keeljs/pkg2': link:../pkg2
