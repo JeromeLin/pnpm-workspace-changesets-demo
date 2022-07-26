@@ -2,11 +2,12 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@keeljs/pkg1": "1.0.1-beta.0",
-    "@keeljs/pkg2": "1.0.5-beta.0",
+    "@keeljs/pkg1": "1.0.1-beta.2",
+    "@keeljs/pkg2": "1.0.5-beta.2",
     "site": "0.0.0"
   },
   "changesets": [
+    "fifty-owls-pretend",
     "new-bears-watch",
     "six-doors-sin",
     "tame-jars-kick"
