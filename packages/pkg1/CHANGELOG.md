@@ -1,5 +1,12 @@
 # @keeljs/pkg1
 
+## 1.0.4
+
+### Patch Changes
+
+- 3965b73: test
+- 35c20a4: test
+
 ## 1.0.4-beta.1
 
 ### Patch Changes
