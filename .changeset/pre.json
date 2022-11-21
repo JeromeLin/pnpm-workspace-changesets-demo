@@ -1,10 +1,12 @@
 {
-  "mode": "exit",
+  "mode": "pre",
   "tag": "beta",
   "initialVersions": {
     "@keeljs/pkg1": "1.0.6-beta.3",
     "@keeljs/pkg2": "1.0.10-beta.3",
     "site": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "fuzzy-dolls-fix"
+  ]
 }
