@@ -1,5 +1,18 @@
 # @keeljs/pkg2
 
+## 1.0.10-beta.5
+
+### Patch Changes
+
+- Break Change
+
+  - [ConfigProvider]
+    - 组件样式设置作用域修正为当前节点下（非全局）
+    - 增加适配 `iphoneX` 安全区域
+    - 增加组件 `css` 变量设置
+    - 增加组件挂载节点的 `mountContainer`
+    - 增加组件类名前缀 `prefixCls` 设置
+
 ## 1.0.10-beta.4
 
 ### Patch Changes
