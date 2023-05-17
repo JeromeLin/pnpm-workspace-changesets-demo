@@ -3,12 +3,13 @@
   "tag": "beta",
   "initialVersions": {
     "@keeljs/pkg1": "1.0.7-beta.0",
-    "@keeljs/pkg2": "2.1.0-beta.1",
+    "@keeljs/pkg2": "2.1.0-beta.2",
     "site": "0.0.0"
   },
   "changesets": [
     "chatty-coins-attack",
     "itchy-forks-fry",
-    "new-years-approve"
+    "new-years-approve",
+    "proud-onions-draw"
   ]
 }
