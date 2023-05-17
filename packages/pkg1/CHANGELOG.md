@@ -1,5 +1,11 @@
 # @keeljs/pkg1
 
+## 1.0.7
+
+### Patch Changes
+
+- 199de76: ccc
+
 ## 1.0.7-beta.0
 
 ### Patch Changes

@@ -1,5 +1,46 @@
 # @keeljs/pkg2
 
+## 2.1.0
+
+### Minor Changes
+
+- 5a39ba0: vvv
+- 2afe783: - Bug Fix
+
+  - [Panel] `title` 或 `more` 属性未声明不再渲染 header 节点 [#1085](https://github.com/ZhongAnTech/zarm/pull/1085)
+  - [Input] 修复受控模式下表单值显示不正确 [#1086](https://github.com/ZhongAnTech/zarm/pull/1086)
+  - [DateSelect] 修复按需加载样式文件丢失 [#1083](https://github.com/ZhongAnTech/zarm/pull/1083)
+
+  - Feature
+
+    - [Toast] 兼容 React 18 异步渲染问题 [#1069](https://github.com/ZhongAnTech/zarm/pull/1069)
+    - [Popup & Modal] 增加指令式调用方式 [#1056](https://github.com/ZhongAnTech/zarm/pull/1056)
+
+### Patch Changes
+
+- 199de76: ccc
+- 1bcb502: bbb
+- - Feature
+
+    - 新增组件：Grid 宫格、WaterMark 水印、Skeleton 骨架屏、Rate 评分、Image 图片
+    - 新增 hooks 组件：useClickAway 单击外部跟踪器、useInViewport 进入浏览器窗口、useLongPress 长按、useOrientation 屏幕方向、useScroll 滚动
+
+  - Break Change
+
+    - [ActivityIndicator]
+      - `ActivityIndicator` 组件更名为 `Loading`
+    - [Loading]
+      - 原 `Loading` 组件合并至 `Toast` 组件，通过设置 `icon` 为 `loading` 来实现
+    - [ConfigProvider]
+      - 组件样式设置作用域修正为当前节点下（非全局）
+      - 增加适配安全区域
+      - 增加组件 `css` 变量设置
+      - 增加组件挂载节点的 `mountContainer`
+      - 增加组件类名前缀 `prefixCls` 设置
+
+- Updated dependencies [199de76]
+  - @keeljs/pkg1@1.0.7
+
 ## 2.1.0-beta.3
 
 ### Patch Changes
