@@ -1,0 +1,12 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@keeljs/pkg1": "1.0.6",
+    "@keeljs/pkg2": "2.0.0",
+    "site": "0.0.0"
+  },
+  "changesets": [
+    "new-years-approve"
+  ]
+}
