@@ -1,5 +1,39 @@
 # @keeljs/pkg2
 
+## 2.0.0
+
+### Major Changes
+
+- 3423c12: bbb
+
+### Patch Changes
+
+- 5ce56f7: hahah
+- bc2b15f: - Bug Fix
+
+  - [Input] 修复 `clearable` 为 `false` 状态下依然显示了清除按钮的 bug。[#880](https://github.com/ZhongAnTech/zarm/pull/880)
+
+  - [Affix] 修复浮动元素在滚动过程节点更新导致异常表现的 bug。[#905](https://github.com/ZhongAnTech/zarm/pull/905)
+
+  - [DateSelect] 修复 `datetime` 和 `time` 模式下，日期时间格式的兼容问题。[#907](https://github.com/ZhongAnTech/zarm/pull/907)
+
+  - Perf
+
+    - [ActivityIndicator] 优化传统菊花状指示器 scss 计算方式。[#a8b3a43](https://github.com/ZhongAnTech/zarm/commit/a8b3a439bde93045db05b3047a7cf74e2f2bebf7)
+
+- 79ba51b: Break Change
+
+  - [ConfigProvider]
+    - 组件样式设置作用域修正为当前节点下（非全局）
+    - 增加适配 `iphoneX` 安全区域
+    - 增加组件 `css` 变量设置
+    - 增加组件挂载节点的 `mountContainer`
+    - 增加组件类名前缀 `prefixCls` 设置
+
+- ccc
+- Updated dependencies [d328c94]
+  - @keeljs/pkg1@1.0.6
+
 ## 2.0.0-beta.8
 
 ### Major Changes

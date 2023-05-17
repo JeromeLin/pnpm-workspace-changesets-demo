@@ -1,5 +1,11 @@
 # @keeljs/pkg1
 
+## 1.0.6
+
+### Patch Changes
+
+- d328c94: aaa
+
 ## 1.0.6-beta.4
 
 ### Patch Changes
