@@ -2,17 +2,29 @@
   "name": "pnpm-workspace-demo",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "jerome.lin@zhongan.com",
+  "license": "MIT",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepublish": "pnpm build",
     "prerelease": "bash scripts/prerelease.sh",
     "release": "bash scripts/release.sh",
+    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "deploy": "pnpm -r --filter=site run build",
     "build": "pnpm -r --filter=@keeljs/* run build",
     "test": "pnpm -r --filter=@keeljs/* run test",
-    "lint": "pnpm -r --filter=@keeljs/* run lint"
+    "lint": "pnpm -r --filter=@keeljs/* run lint",
+    "release2": "pnpm build && release-it"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.23.2"
+    "@changesets/cli": "^2.23.2",
+    "release-it": "^15.10.3",
+    "rimraf": "^5.0.0"
+  },
+  "release-it": {
+    "git": {
+      "tag": false,
+      "commitMessage": "chore: release v${version}"
+    }
   }
 }
