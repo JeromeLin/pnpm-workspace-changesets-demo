@@ -6,5 +6,8 @@
     "@keeljs/pkg2": "2.1.0",
     "site": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "angry-bees-tell",
+    "chatty-geckos-beam"
+  ]
 }

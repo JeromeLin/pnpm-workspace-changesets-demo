@@ -1,5 +1,15 @@
 # @keeljs/pkg2
 
+## 2.2.0-beta.0
+
+### Minor Changes
+
+- bbbb
+
+### Patch Changes
+
+- bf4302e: wwwww
+
 ## 2.1.0
 
 ### Minor Changes
