@@ -2,11 +2,12 @@
   "mode": "exit",
   "tag": "beta",
   "initialVersions": {
-    "@keeljs/pkg1": "1.0.7",
-    "@keeljs/pkg2": "2.2.0",
+    "@keeljs/pkg1": "1.0.8-beta.0",
+    "@keeljs/pkg2": "2.2.1-beta.0",
     "site": "0.0.0"
   },
   "changesets": [
+    "large-paws-rush",
     "tender-peas-pull"
   ]
 }

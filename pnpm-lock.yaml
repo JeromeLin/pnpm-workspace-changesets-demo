@@ -30,7 +30,7 @@ importers:
   packages/site:
     specifiers:
       '@keeljs/pkg1': workspace:^1.0.8-beta.0
-      '@keeljs/pkg2': workspace:2.2.1-beta.0
+      '@keeljs/pkg2': workspace:2.2.1-beta.1
     dependencies:
       '@keeljs/pkg1': link:../pkg1
       '@keeljs/pkg2': link:../pkg2
