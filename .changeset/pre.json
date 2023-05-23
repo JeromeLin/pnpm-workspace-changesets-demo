@@ -6,5 +6,7 @@
     "@keeljs/pkg2": "2.2.0",
     "site": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "tender-peas-pull"
+  ]
 }

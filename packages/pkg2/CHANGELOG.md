@@ -1,5 +1,12 @@
 # @keeljs/pkg2
 
+## 2.2.1-beta.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @keeljs/pkg1@1.0.8-beta.0
+
 ## 2.2.0
 
 ### Minor Changes

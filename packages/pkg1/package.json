@@ -1,6 +1,6 @@
 {
   "name": "@keeljs/pkg1",
-  "version": "1.0.7",
+  "version": "1.0.8-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
